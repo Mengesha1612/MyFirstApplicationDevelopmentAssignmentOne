@@ -19,7 +19,7 @@ public class SecondActivity extends AppCompatActivity {
         tx = findViewById(R.id.textView4);
         secondtext = (TextView) findViewById(R.id.textView3);
         Intent ints = getIntent();
-        str = ints.getStringExtra("assignment");
+        str = ints.getStringExtra("from_mainActivity");
         tx.setText(str);
         secondtext.setText("Hello!");
 

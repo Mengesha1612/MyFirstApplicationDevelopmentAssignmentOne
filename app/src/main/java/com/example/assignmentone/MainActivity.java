@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     public void Toast_btn(View view) {
         Intent intent = new Intent(this, SecondActivity.class);
         textcounter = textView.getText().toString();
-        intent.putExtra("assignment", textcounter);
+        intent.putExtra("from_mainActivity", textcounter);
         startActivity(intent);
         finish();
     }

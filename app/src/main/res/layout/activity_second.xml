@@ -4,15 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#0097A7"
     tools:context=".SecondActivity">
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#9B989C"
+        android:background="#F4F2F4"
         android:text="Hello"
-        android:textColor="#EB0E0E0E"
+        android:textColor="#EB716F6F"
         android:textSize="80sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,7 +26,7 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#D5D3D6"
+        android:background="#EFECF1"
         android:text="@string/text"
         android:textColor="#0E0E0E"
         android:textSize="100sp"
